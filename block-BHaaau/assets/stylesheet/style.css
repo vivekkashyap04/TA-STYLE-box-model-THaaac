@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+body{
+    line-height: 1.5;
+}
+.header{
+    text-align: center;
+    font-size: 50px;
+    padding:32px 180px;
+}
+hr{
+    width:500px;
+    border-style:dashed;
+}
+.box1{
+    width:180px;
+    height:100px;
+    background-color: aqua;
+    border:1px solid black;
+    box-shadow: inset 0 0 0 10px rgb(21, 141, 150);
+    outline:10px solid coral;
+    padding:10px;
+    margin:0 auto;
+}
+.marker-container{
+    margin-top: 30px;
+    text-align: center;
+}
+.circle{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.content{
+    background-color: rgb(65, 143, 65);
+}
+.padding{
+    background-color: aqua;
+}
+.border{
+    background-color:black;
+}
+.margin{
+    background-color: coral;
+}
+h2{
+    font-size: 25px;
+    margin: 10px;
+    text-align: center;
+}
+h3{
+    font-size: 16px;
+    margin: 15px;
+    text-align: center;
+}
+.parent{
+    width:600px;
+    border:1px solid black;
+    margin:24px auto;
+    font-size: 0px;
+}
+.children{
+    width:180px;
+    height:100px;
+    margin:10px;
+    background-color: darkgray;
+    display: inline-block;
+}
+.border{
+    border:1px solid black;
+}
+.border-box{
+    box-sizing: border-box;
+}
